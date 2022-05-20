@@ -8,6 +8,7 @@ Chrome extension to copy data to clipbroad
 ## Available Scripts
 
 Node version: 14.17.5
+Based from https://github.com/VasilyShelkov/create-react-extension
 
 In the project directory, you can run:
 
