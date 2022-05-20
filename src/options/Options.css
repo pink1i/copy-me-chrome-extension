@@ -3,41 +3,65 @@ body {
 }
 
 .App {
-  text-align: center;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  padding: 30px;
+.container1 {
   display: flex;
-  flex-direction: column;
+  padding: 10px;
+  height: 70%;
+}
+.container2 {
+  padding: 10px;
+}
+
+.groups {
+  width: 300px;
+  border-right: 1px solid rgba(114, 114, 114, 0.384);
+  padding-right: 10px;
+}
+
+.items {
+  padding: 5px;
+  padding-right: 10px;
+}
+
+.item-copy {
+  padding: 0 10px;
+  height: 40px;
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  border-radius: 7px;
+  margin-bottom: 5px;
+}
+
+.item-copy:hover {
+  background-color: #282828;
+  color: white;
+  font-weight: bold;
+}
+
+.item-copy-title {
+
+}
+
+.item-copy-btn {
+  margin: 0 5px;
+}
+
+.active-group {
+  background-color: #282828;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.import-container {
+  margin: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.import-container span {
+  margin-right: 10px;
+}
+
+.group-btns {
+  padding: 5px;
 }

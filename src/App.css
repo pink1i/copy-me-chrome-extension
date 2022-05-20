@@ -1,40 +1,69 @@
 .App {
-  text-align: center;
+  width: 300px;
+  background-color: #004464;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ul {
+  list-style: none;
+  padding: 10px;
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ul li {
+  margin: 5px 0;
+  font-weight: bold;
+  width: 100%;
+
+  /* border-bottom: 1px solid #303030; */
+  box-shadow: 1px 1px 4px 1px rgb(213 213 213 / 58%)
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 150px;
-  min-width: 150px;
-  padding: 30px;
+.li-parent {
+  cursor: pointer;
+  padding: 5px;
+  background: #fff;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  height: 35px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.ul-con {
+  background: #f1f1f1;
+  /* margin-left: 10px;
+  margin-top: 5px; */
+}
+
+.ul-con li {
   color: white;
+  background: #276ad5;
+  padding: 5px 0 5px 5px;
+  border-radius: 6px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.ul-con li:hover {
+  background: #194b9c;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.thongbao {
+  text-align: center;
+  height: 6px;
+  padding: 10px;
+  color: white;
+  font-weight: 700;
+}
+
+.thongbao p {
+  margin: 0
+}
+
+
+.btn-option {
+  background: #000;
+  color: white;
+  border: none;
+  box-shadow: 1px 1px 4px 1px rgb(213 213 213 / 58%);
+  margin: 5px;
+  cursor: pointer;
 }

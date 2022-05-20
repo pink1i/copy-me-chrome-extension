@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Options from './Options';
 
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById('options'));
+root.render(
   <React.StrictMode>
     <Options />
   </React.StrictMode>,
